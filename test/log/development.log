@@ -1,0 +1,574 @@
+
+
+Started GET "/" for 120.101.42.75 at 2015-03-15 02:50:32 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/action/.gem/ruby/2.1.1/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (2.3ms)
+Completed 200 OK in 34ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 120.101.42.75 at 2015-03-15 02:58:04 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/action/.gem/ruby/2.1.1/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (2.3ms)
+Completed 200 OK in 34ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (15.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (11.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateIdeas (20150315030534)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "ideas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "picture" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150315030534"]]
+  [1m[35m (12.6ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 120.101.42.75 at 2015-03-15 05:40:16 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/action/.gem/ruby/2.1.1/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 120.101.42.75 at 2015-03-15 05:44:07 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/action/.gem/ruby/2.1.1/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (2.2ms)
+Completed 200 OK in 32ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ideas" for 120.101.42.75 at 2015-03-15 05:45:16 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[35mIdea Load (0.3ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1741ms (Views: 1738.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/ideas-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 120.101.42.75 at 2015-03-15 05:45:18 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 120.101.42.75 at 2015-03-15 05:45:18 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds-efb3d33bd050c5edfdaa69157939ce74.css?body=1" for 120.101.42.75 at 2015-03-15 05:45:18 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 120.101.42.75 at 2015-03-15 05:45:18 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 120.101.42.75 at 2015-03-15 05:45:18 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-bc5c3d83acd5a473358768bc1661f278.css?body=1" for 120.101.42.75 at 2015-03-15 05:45:18 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 120.101.42.75 at 2015-03-15 05:45:18 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 120.101.42.75 at 2015-03-15 05:45:18 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas/new" for 120.101.42.75 at 2015-03-15 05:46:12 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#new as HTML
+  Rendered ideas/_form.html.erb (32.8ms)
+  Rendered ideas/new.html.erb within layouts/application (39.2ms)
+Completed 200 OK in 115ms (Views: 104.6ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/ideas" for 120.101.42.75 at 2015-03-15 05:48:04 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QPeGMy1yb1wwKqZJ5k7cnvyOzEJeGHz5J+aP3X7A7iVYS28pmzGu/TBCMznuSLUBkRFkYCZMVjsU2PGHIK6y2A==", "idea"=>{"name"=>"Hello, World", "description"=>"", "picture"=>""}, "commit"=>"Create Idea"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "ideas" ("name", "description", "picture", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Hello, World"], ["description", ""], ["picture", ""], ["created_at", "2015-03-15 05:48:04.299141"], ["updated_at", "2015-03-15 05:48:04.299141"]]
+  [1m[36m (45.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://forceful-trigger-24-205620.apse1.nitrousbox.com/ideas/1
+Completed 302 Found in 54ms (ActiveRecord: 45.7ms)
+
+
+Started GET "/ideas/1" for 120.101.42.75 at 2015-03-15 05:48:04 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mIdea Load (0.3ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered ideas/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 72ms (Views: 63.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas/1" for 120.101.42.75 at 2015-03-15 05:52:15 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mIdea Load (0.2ms)[0m  [1mSELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered ideas/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 76ms (Views: 74.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/ideas-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 120.101.42.75 at 2015-03-15 05:52:15 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds-efb3d33bd050c5edfdaa69157939ce74.css?body=1" for 120.101.42.75 at 2015-03-15 05:52:15 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-42ff3787d9ea237a4bfda36baede53c8.css?body=1" for 120.101.42.75 at 2015-03-15 05:52:15 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:15 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:15 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:15 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:15 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:15 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas/1" for 120.101.42.75 at 2015-03-15 05:52:18 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mIdea Load (0.2ms)[0m  SELECT  "ideas".* FROM "ideas" WHERE "ideas"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered ideas/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 62ms (Views: 60.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds-efb3d33bd050c5edfdaa69157939ce74.css?body=1" for 120.101.42.75 at 2015-03-15 05:52:18 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:18 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 120.101.42.75 at 2015-03-15 05:52:18 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:18 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:18 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:18 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:18 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-42ff3787d9ea237a4bfda36baede53c8.css?body=1" for 120.101.42.75 at 2015-03-15 05:52:18 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas" for 120.101.42.75 at 2015-03-15 05:52:20 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[36mIdea Load (0.3ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 56ms (Views: 54.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas" for 120.101.42.75 at 2015-03-15 05:52:25 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[35mIdea Load (0.3ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 65ms (Views: 64.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/ideas-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 120.101.42.75 at 2015-03-15 05:52:25 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:25 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds-efb3d33bd050c5edfdaa69157939ce74.css?body=1" for 120.101.42.75 at 2015-03-15 05:52:25 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:25 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:25 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:25 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:25 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-42ff3787d9ea237a4bfda36baede53c8.css?body=1" for 120.101.42.75 at 2015-03-15 05:52:25 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas/new" for 120.101.42.75 at 2015-03-15 05:52:27 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#new as HTML
+  Rendered ideas/_form.html.erb (2.2ms)
+  Rendered ideas/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 64ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ideas/new" for 120.101.42.75 at 2015-03-15 05:52:30 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#new as HTML
+  Rendered ideas/_form.html.erb (3.0ms)
+  Rendered ideas/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 59ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ideas-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 120.101.42.75 at 2015-03-15 05:52:30 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds-efb3d33bd050c5edfdaa69157939ce74.css?body=1" for 120.101.42.75 at 2015-03-15 05:52:30 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:30 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:30 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:30 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:30 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:30 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-42ff3787d9ea237a4bfda36baede53c8.css?body=1" for 120.101.42.75 at 2015-03-15 05:52:30 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas/new" for 120.101.42.75 at 2015-03-15 05:52:32 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#new as HTML
+  Rendered ideas/_form.html.erb (2.4ms)
+  Rendered ideas/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 71ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ideas-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 120.101.42.75 at 2015-03-15 05:52:32 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:32 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:32 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:32 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:32 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds-efb3d33bd050c5edfdaa69157939ce74.css?body=1" for 120.101.42.75 at 2015-03-15 05:52:32 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:32 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-42ff3787d9ea237a4bfda36baede53c8.css?body=1" for 120.101.42.75 at 2015-03-15 05:52:32 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas" for 120.101.42.75 at 2015-03-15 05:52:36 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[36mIdea Load (0.3ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 61ms (Views: 59.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ideas" for 120.101.42.75 at 2015-03-15 05:52:54 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[35mIdea Load (0.3ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 55ms (Views: 54.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/ideas-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 120.101.42.75 at 2015-03-15 05:52:55 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds-efb3d33bd050c5edfdaa69157939ce74.css?body=1" for 120.101.42.75 at 2015-03-15 05:52:55 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:55 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:55 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:55 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:55 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 120.101.42.75 at 2015-03-15 05:52:55 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-42ff3787d9ea237a4bfda36baede53c8.css?body=1" for 120.101.42.75 at 2015-03-15 05:52:55 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas" for 120.101.42.75 at 2015-03-15 06:09:35 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[36mIdea Load (0.3ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 55ms (Views: 53.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/ideas-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 120.101.42.75 at 2015-03-15 06:09:36 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds-efb3d33bd050c5edfdaa69157939ce74.css?body=1" for 120.101.42.75 at 2015-03-15 06:09:36 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 120.101.42.75 at 2015-03-15 06:09:36 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 120.101.42.75 at 2015-03-15 06:09:36 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 120.101.42.75 at 2015-03-15 06:09:36 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-42ff3787d9ea237a4bfda36baede53c8.css?body=1" for 120.101.42.75 at 2015-03-15 06:09:36 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 120.101.42.75 at 2015-03-15 06:09:36 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 120.101.42.75 at 2015-03-15 06:09:36 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas" for 120.101.42.75 at 2015-03-15 06:09:38 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[35mIdea Load (0.3ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 56ms (Views: 55.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/ideas-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 120.101.42.75 at 2015-03-15 06:09:38 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds-efb3d33bd050c5edfdaa69157939ce74.css?body=1" for 120.101.42.75 at 2015-03-15 06:09:38 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 120.101.42.75 at 2015-03-15 06:09:38 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 120.101.42.75 at 2015-03-15 06:09:39 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 120.101.42.75 at 2015-03-15 06:09:39 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-42ff3787d9ea237a4bfda36baede53c8.css?body=1" for 120.101.42.75 at 2015-03-15 06:09:39 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 120.101.42.75 at 2015-03-15 06:09:39 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 120.101.42.75 at 2015-03-15 06:09:39 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas" for 120.101.42.75 at 2015-03-15 06:09:58 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[36mIdea Load (0.3ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 63ms (Views: 62.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/ideas-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 120.101.42.75 at 2015-03-15 06:09:58 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 120.101.42.75 at 2015-03-15 06:09:58 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-42ff3787d9ea237a4bfda36baede53c8.css?body=1" for 120.101.42.75 at 2015-03-15 06:09:58 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds-efb3d33bd050c5edfdaa69157939ce74.css?body=1" for 120.101.42.75 at 2015-03-15 06:09:58 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 120.101.42.75 at 2015-03-15 06:09:58 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 120.101.42.75 at 2015-03-15 06:09:58 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 120.101.42.75 at 2015-03-15 06:09:58 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 120.101.42.75 at 2015-03-15 06:09:58 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas" for 120.101.42.75 at 2015-03-15 06:10:08 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[35mIdea Load (0.3ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 61ms (Views: 60.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/ideas-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 120.101.42.75 at 2015-03-15 06:10:08 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds-efb3d33bd050c5edfdaa69157939ce74.css?body=1" for 120.101.42.75 at 2015-03-15 06:10:08 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-42ff3787d9ea237a4bfda36baede53c8.css?body=1" for 120.101.42.75 at 2015-03-15 06:10:08 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 120.101.42.75 at 2015-03-15 06:10:08 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 120.101.42.75 at 2015-03-15 06:10:08 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 120.101.42.75 at 2015-03-15 06:10:08 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 120.101.42.75 at 2015-03-15 06:10:08 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 120.101.42.75 at 2015-03-15 06:10:08 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/ideas" for 120.101.42.75 at 2015-03-15 06:15:36 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by IdeasController#index as HTML
+  [1m[36mIdea Load (0.3ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 61ms (Views: 59.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/ideas-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 120.101.42.75 at 2015-03-15 06:15:36 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds-efb3d33bd050c5edfdaa69157939ce74.css?body=1" for 120.101.42.75 at 2015-03-15 06:15:37 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-42ff3787d9ea237a4bfda36baede53c8.css?body=1" for 120.101.42.75 at 2015-03-15 06:15:37 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 120.101.42.75 at 2015-03-15 06:15:37 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 120.101.42.75 at 2015-03-15 06:15:37 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 120.101.42.75 at 2015-03-15 06:15:37 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ideas-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 120.101.42.75 at 2015-03-15 06:15:37 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for 120.101.42.75 at 2015-03-15 06:15:37 +0000
+Cannot render console from 120.101.42.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
